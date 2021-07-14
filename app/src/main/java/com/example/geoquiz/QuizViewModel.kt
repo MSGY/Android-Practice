@@ -18,6 +18,7 @@ class QuizViewModel : ViewModel() {
         Question(R.string.question_asia, true))
 
     var currentIndex = 0
+    var times = 2
     var isCheater = false
 
     val currentQuestionAnswer : Boolean
